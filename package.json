@@ -1,0 +1,23 @@
+{
+  "name": "projek-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i .public/css/input.css -o .public/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRODOK/prodok.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRODOK/prodok.github.io/issues"
+  },
+  "homepage": "https://github.com/PRODOK/prodok.github.io#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}

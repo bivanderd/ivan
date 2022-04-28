@@ -1,0 +1,164 @@
+<html  class="scroll-smooth">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width , initial-scale=1.0"/>
+	<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+
+	<title>Benedhictus Ivander</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="javascript.js">
+	<script src="javascript.js"></script>
+	
+	
+</head>
+<body class="bg-gray-400 font-sans leading-normal tracking-normal">
+	
+
+	
+
+<!--Navbar -->
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+<div class="w-full shadow-xl text-gray-700 fixed bg-white dark-mode:text-gray-200 dark-mode:bg-gray-800">
+  <div x-data="{ open: false }" class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+    <div class="p-4 flex flex-row items-center justify-between">
+      <a href="#" class="text-xl font-bold tracking-widest  uppercase rounded-lg dark-mode:text-white focus:outline-none text-utama focus:shadow-outline">Ivander.</a>
+      <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+          <path x-show="!open" fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+          <path x-show="open" fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    </div>
+    <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row ">
+      <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-utama focus:text-teal-600 hover:bg-gray-200 focus:bg-gray-300 focus:outline-none focus:shadow-outline" href="#home">Home</a>
+      <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-utama focus:text-teal-600 hover:bg-gray-200 focus:bg-gray-300 focus:outline-none focus:shadow-outline" href="#about">About</a>
+      <a class="px-4 py-2 mt-2 text-sm font-semibold bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:hover:bg-gray-600 dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 md:ml-4 hover:text-utama focus:text-teal-600 hover:bg-gray-200 focus:bg-gray-300 focus:outline-none focus:shadow-outline" href="#contact">Contact</a>
+      
+      <div @click.away="open = false" class="relative" x-data="{ open: false }">
+       
+        
+      </div>    
+    </nav>
+  </div>
+</div>
+
+<!--Selesai-->	
+	
+	  <div 
+	  class=" w-auto h-full 
+	  bg-cover overflow-y-auto bg-fixed "
+	     
+		  style="background-image: url(/Gambar/quote.jpg);"></div> 
+	
+     
+	 
+	  <div class="  bg-white ">
+		 <H1 class="text-4xl text-center font-bold text-utama " id="home">Portofolio Web</H1>
+		 <br><br><br>
+		 
+		 <div id="home" class="px-4  "> <h1 class=" font-serif text-xl text-utama" id="">Halloo Semuanya😁,Saya 
+			 <span class="font-bold block mt-1 text-4xl text-sekunder">
+			  Benedhictus Ivander Danianto</span></h1>
+		   </div>
+	<div class="px-4">
+		<h2 class="font-medium text-slate-500 text-xl">Seorang Pelajar</h2>
+		<p class="mt-5 text-base font-mono">ini adalah web yang saya buat sendiri <br> 
+		Jika ada masukan bisa </p><br>
+		<a href="sragenivan29@gmail.com" class=" bg-utama text-lg font-semibold rounded-lg text-white py-3 px-4">Hubungi Saya</a>
+	</div>
+	
+	
+<section id="about" class="pt-80 pb-96">
+	<div  class="container w-full px-4 ">
+	<span class="  text-utama text-2xl font-serif">About Me🤗</span><br>
+	<span  class=" font-serif mt-1 text-3xl container">Laki,23 Agustus 2005,Sekarang Bersekolah di SMAN 1 Sragen</span><br><span
+		class="text-utama font-serif text-2xl mt-5"><br>Hobby:</span>
+	<div  class="text-lg">
+		<ul class="list-disc px-4">
+		<li>Basket</li>
+		<li>Renang</li>
+		<li>Boxing</li>
+	</ul></div>
+	<br>
+	<span class="text-2xl text-utama font-serif">Riwayat Sekolah</span>
+	<br>
+	<ul class="list-disc px-4 text-lg">
+		<li>TK Santa Anna</li>
+		<li>SD Santo Fransiskus</li>
+		<li>SMP N 1 Karangmalang</li>
+		<li>SMA N 1 Sragen</li>
+	</ul>
+
+	<br>
+	<span class="font-serif text-utama text-2xl">Organisasi Yang Pernah Dan Sedang Di ikut:</span>
+	<br><span class="py-3 font-medium text-xl">Sekolah Menengah Pertama</span>
+	<ul class="list-disc px-4 text-lg">
+		<li>Osis SMP N 1 Karangmalang</li>
+		<li>PMR SMP N 1 Karangmalang</li>
+		<li>Pramuka SMP N 1 Karangmalang</li>
+	</ul>
+	<br>
+	<span class="font-medium text-xl">Sekolah Menengah Atas</span><br>
+	<ul class="list-disc px-4 text-lg">
+		<li>MPK SMA N 1 Sragen</li>
+		<li>Mavissa SMA N 1 Sragen</li>
+	</ul>
+</div>
+</section>
+<!-- Footer Start -->
+ <footer id="contact" class=" bg-black pt-10 ">
+	 <div class="container text-slate-200 px-4 font-extrabold text-2xl">Terimakasih😍<br>
+		<span class="text-slate-500 pt-3 text-lg font-mono ">Contact Me</span>
+
+	 <br>
+	 <div class="flex items-center  ">
+		 <!--ig-->
+		<a href="https://www.instagram.com/bivanderd/" target="_blank" 
+		 class="pt-5">
+		 <svg xmlns="http://www.w3.org/2000/svg" width="30"  
+		 viewBox="0 0 102 102"><defs><radialGradient id="a" 
+			cx="6.601" cy="99.766" r="129.502" 
+			gradientUnits="userSpaceOnUse">
+			<stop offset=".09" 
+			stop-color="#fa8f21"/><stop 
+			offset=".78" 
+			stop-color="#d82d7e"/>
+		</radialGradient><radialGradient 
+		id="b" cx="70.652" cy="96.49" 
+		r="113.963" gradientUnits="userSpaceOnUse">
+		<stop offset=".64" stop-color="#8c3aaa" 
+		stop-opacity="0"/><stop offset="1" 
+		stop-color="#8c3aaa"/></radialGradient></defs><path 
+		fill="url(#a)" d="M25.865,101.639A34.341,34.341,0,0,1
+		,14.312,99.5a19.329,19.329,0,0,1-7.154-4.653A19.181,19.181,0,0,1,2.5,87.694,34.341,34.341,0,0,1,.364,76.142C.061,69.584,0,67.617,0,51s.067-18.577.361-25.14A34.534,34.534,0,0,1,2.5,14.312,19.4,19.4,0,0,1,7.154,7.154,19.206,19.206,0,0,1,14.309,2.5,34.341,34.341,0,0,1,25.862.361C32.422.061,34.392,0,51,0s18.577.067,25.14.361A34.534,34.534,0,0,1,87.691,2.5a19.254,19.254,0,0,1,7.154,4.653A19.267,19.267,0,0,1,99.5,14.309a34.341,34.341,0,0,1,2.14,11.553c.3,6.563.361,8.528.361,25.14s-.061,18.577-.361,25.14A34.5,34.5,0,0,1,99.5,87.694,20.6,20.6,0,0,1,87.691,99.5a34.342,34.342,0,0,1-11.553,2.14c-6.557.3-8.528.361-25.14.361s-18.577-.058-25.134-.361" data-name="Path 16"/><path fill="url(#b)" d="M25.865,101.639A34.341,34.341,0,0,1,14.312,99.5a19.329,19.329,0,0,1-7.154-4.653A19.181,19.181,0,0,1,2.5,87.694,34.341,34.341,0,0,1,.364,76.142C.061,69.584,0,67.617,0,51s.067-18.577.361-25.14A34.534,34.534,0,0,1,2.5,14.312,19.4,19.4,0,0,1,7.154,7.154,19.206,19.206,0,0,1,14.309,2.5,34.341,34.341,0,0,1,25.862.361C32.422.061,34.392,0,51,0s18.577.067,25.14.361A34.534,34.534,0,0,1,87.691,2.5a19.254,19.254,0,0,1,7.154,4.653A19.267,19.267,0,0,1,99.5,14.309a34.341,34.341,0,0,1,2.14,11.553c.3,6.563.361,8.528.361,25.14s-.061,18.577-.361,25.14A34.5,34.5,0,0,1,99.5,87.694,20.6,20.6,0,0,1,87.691,99.5a34.342,34.342,0,0,1-11.553,2.14c-6.557.3-8.528.361-25.14.361s-18.577-.058-25.134-.361" data-name="Path 17"/><path fill="#fff" d="M461.114,477.413a12.631,12.631,0,1,1,12.629,12.632,12.631,12.631,0,0,1-12.629-12.632m-6.829,0a19.458,19.458,0,1,0,19.458-19.458,19.457,19.457,0,0,0-19.458,19.458m35.139-20.229a4.547,4.547,0,1,0,4.549-4.545h0a4.549,4.549,0,0,0-4.547,4.545m-30.99,51.074a20.943,20.943,0,0,1-7.037-1.3,12.547,12.547,0,0,1-7.193-7.19,20.923,20.923,0,0,1-1.3-7.037c-.184-3.994-.22-5.194-.22-15.313s.04-11.316.22-15.314a21.082,21.082,0,0,1,1.3-7.037,12.54,12.54,0,0,1,7.193-7.193,20.924,20.924,0,0,1,7.037-1.3c3.994-.184,5.194-.22,15.309-.22s11.316.039,15.314.221a21.082,21.082,0,0,1,7.037,1.3,12.541,12.541,0,0,1,7.193,7.193,20.926,20.926,0,0,1,1.3,7.037c.184,4,.22,5.194.22,15.314s-.037,11.316-.22,15.314a21.023,21.023,0,0,1-1.3,7.037,12.547,12.547,0,0,1-7.193,7.19,20.925,20.925,0,0,1-7.037,1.3c-3.994.184-5.194.22-15.314.22s-11.316-.037-15.309-.22m-.314-68.509a27.786,27.786,0,0,0-9.2,1.76,19.373,19.373,0,0,0-11.083,11.083,27.794,27.794,0,0,0-1.76,9.2c-.187,4.04-.229,5.332-.229,15.623s.043,11.582.229,15.623a27.793,27.793,0,0,0,1.76,9.2,19.374,19.374,0,0,0,11.083,11.083,27.813,27.813,0,0,0,9.2,1.76c4.042.184,5.332.229,15.623.229s11.582-.043,15.623-.229a27.8,27.8,0,0,0,9.2-1.76,19.374,19.374,0,0,0,11.083-11.083,27.716,27.716,0,0,0,1.76-9.2c.184-4.043.226-5.332.226-15.623s-.043-11.582-.226-15.623a27.786,27.786,0,0,0-1.76-9.2,19.379,19.379,0,0,0-11.08-11.083,27.748,27.748,0,0,0-9.2-1.76c-4.041-.185-5.332-.229-15.621-.229s-11.583.043-15.626.229" data-name="Path 18" transform="translate(-422.637 -426.196)"/></svg>			
+
+		 </a>
+		 <!--Dah-->
+		 
+	 </div>
+	 </div>	
+	 <br>
+	 <p class="text-lg py-5 px-4 text-slate-200 font-mono">Yang Saya Gunakan Untuk Membangun Web Ini:</p>
+	<div class="flex flex-wrap items-center justify-center">
+<svg class="px-4" xmlns="http://www.w3.org/2000/svg" width="70"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 256 361"><path fill="#E44D26" d="M255.555 70.766l-23.241 260.36-104.47 28.962-104.182-28.922L.445 70.766h255.11z"/><path fill="#F16529" d="M128 337.95l84.417-23.403 19.86-222.49H128V337.95z"/><path fill="#EBEBEB" d="M82.82 155.932H128v-31.937H47.917l.764 8.568 7.85 88.01H128v-31.937H85.739l-2.919-32.704zM90.018 236.542h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58l-.14.037-35.568-9.604-2.274-25.471z"/><path fill="#ffffff" d="M24.18 0h16.23v16.035h14.847V0h16.231v48.558h-16.23v-16.26H40.411v16.26h-16.23V0zM92.83 16.103H78.544V0h44.814v16.103h-14.295v32.455h-16.23V16.103h-.001zM130.47 0h16.923l10.41 17.062L168.203 0h16.93v48.558h-16.164V24.49l-11.166 17.265h-.28L146.35 24.49v24.068h-15.88V0zM193.21 0h16.235v32.508h22.824v16.05h-39.06V0z"/><path fill="#FFF" d="M127.89 220.573h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576H127.89v31.937zM127.89 155.854v.078h77.143l.64-7.178 1.456-16.191.763-8.568H127.89v31.86z"/></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="57" viewBox="0 0 128 128"><path fill="#ffffff" d="M89.234 5.856h-7.384l7.679 8.333v3.967h-15.816v-4.645h7.678l-7.678-8.333v-3.971h15.521v4.649zm-18.657 0h-7.384l7.679 8.333v3.967h-15.817v-4.645h7.679l-7.679-8.333v-3.971h15.522v4.649zm-18.474.19h-7.968v7.271h7.968v4.839h-13.632v-16.949h13.632v4.839z"/><path fill="#1572B6" d="M27.613 116.706l-8.097-90.813h88.967l-8.104 90.798-36.434 10.102-36.332-10.087z"/><path fill="#33A9DC" d="M64.001 119.072l29.439-8.162 6.926-77.591h-36.365v85.753z"/><path fill="#fff" d="M64 66.22h14.738l1.019-11.405h-15.757v-11.138h27.929000000000002l-.267 2.988-2.737 30.692h-24.925v-11.137z"/><path fill="#EBEBEB" d="M64.067 95.146l-.049.014-12.404-3.35-.794-8.883h-11.178999999999998l1.561 17.488 22.814 6.333.052-.015v-11.587z"/><path fill="#fff" d="M77.792 76.886l-1.342 14.916-12.422 3.353v11.588l22.833-6.328.168-1.882 1.938-21.647h-11.175z"/><path fill="#EBEBEB" d="M64.039 43.677v11.136999999999999h-26.903000000000002l-.224-2.503-.507-5.646-.267-2.988h27.901zM64 66.221v11.138h-12.247l-.223-2.503-.508-5.647-.267-2.988h13.245z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" class="px-3" viewBox="0 0 78.562 110.589"><path fill="#e6a329" d="M78.562,489.9H0l7.365,79.867,31.912,9.051,31.912-9.051Z" data-name="Path 275" transform="translate(0 -468.229)"/><path fill="#f1bf22" d="M887.9,637v75.643l25.856-7.325L920.046,637Z" data-name="Path 276" transform="translate(-848.623 -608.822)"/><path fill="#fff" d="M434.124,858.5H394.369L391.6,888.4l.057-.186h33.774l-1.1,12.651-10.776,3.1-10.935-3.15-.655-7.657h-9.926l1.416,15.3,20.1,5.706,20.109-5.706,2.769-30.032H400.589l.46-10.006h24.869l.372,5.733H436.3Z" data-name="Path 277" transform="translate(-374.277 -820.524)"/><path fill="#ebebeb" d="M413.563,858.5H394.369L391.6,888.4l.057-.186h21.905v-9.754H401.987l.46-10.006h11.116Zm-11.576,34.663h-9.949l1.416,15.292,20.1,5.7V903.979l-10.935-3.158Z" data-name="Path 278" transform="translate(-374.277 -820.524)"/><path fill="#ffff" d="M564.094,9.891H557.1v5.021h12V0h-5ZM586.371.08H574.179V5.3c1.628,1.628,2.477,2.411,4.875,4.769h-4.875v4.76h12.191V10.077L581.5,5.308h4.875Z" data-name="Path 279" transform="translate(-532.456)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="70"  viewBox="0 0 24 24"><path fill="#13A1E2" d="M18.5 9.51a4.22 4.22 0 0 1-1.91-1.34A5.77 5.77 0 0 0 12 6a4.72 4.72 0 0 0-5 4 3.23 3.23 0 0 1 3.5-1.49 4.32 4.32 0 0 1 1.91 1.35A5.77 5.77 0 0 0 17 12a4.72 4.72 0 0 0 5-4 3.2 3.2 0 0 1-3.5 1.51zm-13 4.98a4.22 4.22 0 0 1 1.91 1.34A5.77 5.77 0 0 0 12 18a4.72 4.72 0 0 0 5-4 3.23 3.23 0 0 1-3.5 1.49 4.32 4.32 0 0 1-1.91-1.35A5.8 5.8 0 0 0 7 12a4.72 4.72 0 0 0-5 4 3.2 3.2 0 0 1 3.5-1.51z"/></svg>
+	</div>
+
+	<p class="text-xs py-10 px-4 text-slate-500 font-mono text-center ">
+		RIL CUY DIBUAT DENGAN 😡<br>sragenivan30@gmail.com</p>
+
+
+
+
+
+	</footer>
+<!--Done-->
+
+
+
+	 </div>
+	</body>
+</html>
